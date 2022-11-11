@@ -15,7 +15,9 @@ const useHooks = () => {
 			index: histories.length + 1,
 			history: result,
 			// answerとresultを比較して、大きいか小さいか正解かを判定する
-			result: parseInt(result) === answer ? '正解' : parseInt(result) > answer ? 'もっと小さい' : 'もっと大きい'
+			result: parseInt(result) === answer ?
+				'正解' : parseInt(result) > answer ?
+					'もっと小さい' : 'もっと大きい'
 		}]);
 	};
 

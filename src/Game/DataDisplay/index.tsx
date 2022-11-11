@@ -7,7 +7,7 @@ import TableBody from '@mui/material/TableBody';
 import TableRow from '@mui/material/TableRow';
 import TableCell from '@mui/material/TableCell';
 
-import { historyType } from '../useHooks';
+import type { historyType } from '../useHooks';
 
 export default ({ histories }: {histories: historyType[]}) => {
 	return (
