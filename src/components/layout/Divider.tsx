@@ -1,4 +1,4 @@
 import Divider, { DividerProps } from '@mui/material/Divider';
 
-export { DividerProps };
+export type { DividerProps };
 export default Divider;
