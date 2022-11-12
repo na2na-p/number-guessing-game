@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Button from '@/components/input/Button';
-import Stack from '@mui/material/Stack';
+import Stack from '@/components/layout/Stack';
 import Divider from '@/components/layout/Divider';
 
 import Input from './Input';
