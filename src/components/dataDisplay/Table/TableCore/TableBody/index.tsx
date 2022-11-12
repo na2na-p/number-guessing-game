@@ -5,7 +5,6 @@ import MuiTableRow from '@mui/material/TableRow';
 import Cell from '../Cell';
 
 export default ({ rows }: { rows: ReactNode[][] }) => {
-	console.log('rows', rows);
 	return (
 		<MuiTableBody>
 			{rows.map((row, index) => (
