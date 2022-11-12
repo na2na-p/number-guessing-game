@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from '@/components/Button';
+import Button from '@/components/input/Button';
 import Stack from '@mui/material/Stack';
 import Divider from '@mui/material/Divider';
 

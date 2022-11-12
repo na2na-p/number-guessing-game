@@ -1,7 +1,7 @@
 import React from 'react';
 
-import TextField from '@/components/TextField';
-import Button from '@/components/Button';
+import TextField from '@/components/input/TextField';
+import Button from '@/components/input/Button';
 
 import { useHooks } from './useHooks';
 
