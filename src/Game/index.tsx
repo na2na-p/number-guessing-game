@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from '@/components/input/Button';
 import Stack from '@mui/material/Stack';
-import Divider from '@mui/material/Divider';
+import Divider from '@/components/layout/Divider';
 
 import Input from './Input';
 import DataDisplay from './DataDisplay';
