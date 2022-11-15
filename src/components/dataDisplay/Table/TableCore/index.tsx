@@ -10,8 +10,8 @@ export default ({ headers, rows }: { headers: ReactNode[], rows: ReactNode[][] }
 	return (
 		<MuiTableContainer>
 			<MuiTable>
-				<TableHead headers={headers}/>
-				<TableBody rows={rows}/>
+				<TableHead headers={headers} />
+				<TableBody rows={rows} />
 			</MuiTable>
 		</MuiTableContainer>
 	);

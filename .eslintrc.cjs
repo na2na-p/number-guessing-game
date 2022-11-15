@@ -24,7 +24,7 @@ module.exports = {
 		'react/react-in-jsx-scope': 'off',
 		'react/no-unknown-property': [
 			'error',
-			{ignore: ['css']}
+			{ ignore: ['css'] }
 		],
 		'require-jsdoc': 'off',
 		'react/display-name': 'off',
@@ -34,7 +34,8 @@ module.exports = {
 		'react-hooks/exhaustive-deps': 'error',
 		'comma-dangle': ['error', 'never'],
 		'object-curly-spacing': ['error', 'always'],
-		'no-unused-vars': 'off'
+		'no-unused-vars': 'off',
+		'react/jsx-tag-spacing': 2
 	},
 	'settings': {
 		'react': {

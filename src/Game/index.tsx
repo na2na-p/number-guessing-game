@@ -12,9 +12,9 @@ export default () => {
 	const { histories, setResultHistory, onResetButtonClick } = useHooks();
 	return (
 		<Stack spacing={2}>
-			<Input setter={setResultHistory}/>
-			<Divider/>
-			<DataDisplay histories={histories}/>
+			<Input setter={setResultHistory} />
+			<Divider />
+			<DataDisplay histories={histories} />
 			<Button onClick={onResetButtonClick}>もう一度最初から</Button>
 		</Stack>
 	);

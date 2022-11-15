@@ -11,6 +11,6 @@ export default ({ histories }: { histories: historyType[] }) => {
 		return [index + 1, history, result];
 	});
 	return (
-		<Table headers={tableHeaders} rows={historyRows}/>
+		<Table headers={tableHeaders} rows={historyRows} />
 	);
 };

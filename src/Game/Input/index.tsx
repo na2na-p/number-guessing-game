@@ -9,7 +9,7 @@ export default ({ setter }: { setter: (result: string) => void }) => {
 	const { inputRef, onButtonClick } = useHooks({ setter });
 	return (
 		<>
-			<TextField placeholder='いくつでしょう?' inputRef={inputRef} type="number"/>
+			<TextField placeholder='いくつでしょう?' inputRef={inputRef} type="number" />
 			<Button onClick={onButtonClick}>トライ!</Button>
 		</>
 	);
