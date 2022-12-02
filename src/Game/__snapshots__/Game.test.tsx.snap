@@ -1,6 +1,6 @@
 // Vitest Snapshot v1
 
-exports[`Game root component > should render correctly 1`] = `
+exports[`Game component > レンダリングテスト 1`] = `
 <div>
   <div
     class="css-1p5q5e5-MuiStack-root"
