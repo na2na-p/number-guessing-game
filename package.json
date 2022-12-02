@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
+		"test": "yarn vitest",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
 		"lint": "yarn eslint --ext .tsx,.ts ./src",
