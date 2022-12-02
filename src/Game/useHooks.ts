@@ -6,17 +6,22 @@ export type historyType = {
 	result: string;
 }
 
-const useHooks = () => {
+const useHooks = ({
+	answer
+}: {
+	answer?: number
+}) => {
+	const initialAnswer = answer || Math.floor(Math.random() * 100) + 1;
 	const [histories, setHistories] = useState<historyType[]>([]);
-	const [answer] = useState(Math.floor(Math.random() * 100) + 1);
+	const [answerState] = useState(initialAnswer);
 
 	const setResultHistory = (result: string) => {
 		setHistories([...histories, {
 			index: histories.length + 1,
 			history: result,
 			// answerとresultを比較して、大きいか小さいか正解かを判定する
-			result: parseInt(result) === answer ?
-				'正解' : parseInt(result) > answer ?
+			result: parseInt(result) === answerState ?
+				'正解' : parseInt(result) > answerState ?
 					'もっと小さい' : 'もっと大きい'
 		}]);
 	};
@@ -26,7 +31,6 @@ const useHooks = () => {
 	};
 
 	return {
-		answer,
 		histories,
 		setResultHistory,
 		onResetButtonClick
