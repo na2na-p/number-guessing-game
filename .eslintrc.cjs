@@ -35,7 +35,8 @@ module.exports = {
 		'comma-dangle': ['error', 'never'],
 		'object-curly-spacing': ['error', 'always'],
 		'no-unused-vars': 'off',
-		'react/jsx-tag-spacing': 2
+		'react/jsx-tag-spacing': 2,
+		'spaced-comment': ['error', 'always', { markers: ['/ <reference'] }]
 	},
 	'settings': {
 		'react': {
