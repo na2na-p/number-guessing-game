@@ -2,7 +2,7 @@ import React from 'react';
 
 import Table from '@/components/dataDisplay/Table';
 
-import type { historyType } from '../useHooks';
+import type { historyType } from '../hooks';
 
 export default ({ histories }: { histories: historyType[] }) => {
 	const tableHeaders = ['回数', 'あなたの答え', '判定'];

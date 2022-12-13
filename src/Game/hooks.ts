@@ -6,7 +6,7 @@ export type historyType = {
 	result: string;
 }
 
-const useHooks = ({
+export const useHooks = ({
 	answer
 }: {
 	answer?: number
@@ -36,5 +36,3 @@ const useHooks = ({
 		onResetButtonClick
 	};
 };
-
-export default useHooks;
