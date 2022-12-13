@@ -1,12 +1,7 @@
 import { useState } from 'react';
+import { historyType } from './types';
 
-export type historyType = {
-	index: number;
-	history: string;
-	result: string;
-}
-
-const useHooks = ({
+export const useHooks = ({
 	answer
 }: {
 	answer?: number
@@ -36,5 +31,3 @@ const useHooks = ({
 		onResetButtonClick
 	};
 };
-
-export default useHooks;

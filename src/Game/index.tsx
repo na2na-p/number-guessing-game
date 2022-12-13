@@ -7,7 +7,7 @@ import Typography from '@/components/Typography';
 
 import Input from './Input';
 import DataDisplay from './DataDisplay';
-import useHooks from './useHooks';
+import { useHooks } from './hooks';
 
 export type GameProps = {
 	answer?: number;
