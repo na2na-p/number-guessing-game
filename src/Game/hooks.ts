@@ -1,10 +1,5 @@
 import { useState } from 'react';
-
-export type historyType = {
-	index: number;
-	history: string;
-	result: string;
-}
+import { historyType } from './types';
 
 export const useHooks = ({
 	answer
