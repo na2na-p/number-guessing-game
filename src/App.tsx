@@ -3,11 +3,7 @@ import React from 'react';
 import Game from './Game';
 
 function App() {
-	return (
-		<>
-			<Game />
-		</>
-	);
+	return <Game />;
 }
 
 export default App;

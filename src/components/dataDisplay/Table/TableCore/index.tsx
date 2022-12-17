@@ -6,7 +6,12 @@ import MuiTableContainer from '@mui/material/TableContainer';
 import TableHead from './TableHead';
 import TableBody from './TableBody';
 
-export default ({ headers, rows }: { headers: ReactNode[], rows: ReactNode[][] }) => {
+export type TableCoreProps = {
+	headers: ReactNode[],
+	rows: ReactNode[][]
+}
+
+export default ({ headers, rows }: TableCoreProps) => {
 	return (
 		<MuiTableContainer>
 			<MuiTable>
